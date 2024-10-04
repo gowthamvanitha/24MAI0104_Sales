@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 # Load the dataset
-file_path = r"C:\Users\gowth\OneDrive\Desktop\streamlit tut\sales_dataset_with_items.xlsx"
+file_path = r"data/sales_dataset_with_items.xlsx"
 df = pd.read_excel(file_path)
 
 # Set page configuration
